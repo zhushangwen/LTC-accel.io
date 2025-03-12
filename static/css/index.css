@@ -125,6 +125,22 @@ body {
   margin: 0;
 }
 
+.gif-container {
+    display: flex;
+    gap: 20px; /* 设置两个动图之间的间距 */
+    justify-content: center; /* 水平居中 */
+  }
+
+  .item {
+    flex: 1; /* 让两个动图平分宽度 */
+    text-align: center; /* 文字居中 */
+  }
+
+  .item img {
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+  }
+
 .slider-pagination .slider-page {
   background: #000000;
 }
