@@ -141,12 +141,12 @@ body {
     height: auto; /* 保持图片比例 */
   }
 
-  .caption {
+  <!--.caption {
     margin-top: 15px; /* 文字与动图的间距 */
     font-size: 14px; /* 文字大小 */
     color: #333; /* 文字颜色 */
     line-height: 1.5; /* 行高 */
-  }
+  }-->
 
 .slider-pagination .slider-page {
   background: #000000;
